@@ -1,5 +1,5 @@
-from envtest import rand_array
+import envtest
 
 shape = (3, 3)
 
-print(rand_array(shape))
+print(envtest.rand_array(shape))
